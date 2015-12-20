@@ -1,0 +1,25 @@
+opam-version: "1.2"
+name: "or_errors_all"
+version: "dev"
+author : "Carmelo Piccione carmelo.piccione+or_errors@gmail.com"
+maintainer: "carmelo.piccione+or_errors@gmail.com"
+homepage: "https://github.com/struktured/or_errors_all"
+dev-repo: "git://github.com/struktured/or_errors_all.git#master"
+bug-reports: "https://github.com/struktured/or_errors_all/issues"
+
+build: [
+]
+
+install: [
+]
+
+remove: [
+]
+
+depends: [
+"or_errors"
+"or_errors_containers"
+"or_errors_async"
+"or_errors_lwt"
+"or_errors_rresult"
+]
