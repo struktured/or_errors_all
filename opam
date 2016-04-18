@@ -17,6 +17,7 @@ remove: [
 ]
 
 depends: [
+"ocamlfind"
 "or_errors"
 "or_errors_containers"
 "or_errors_async"
